@@ -50,4 +50,4 @@ Before running the automation, ensure the following tools are installed and conf
 ### GCP Authentication
 The project uses the **Service Account authentication method**.
 
-export GOOGLE_APPLICATION_CREDENTIALS=~/gcp-key.json
+export GOOGLE_APPLICATION_CREDENTIALS=~/gcp-service-account-key.json
