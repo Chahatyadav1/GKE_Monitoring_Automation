@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-# go to monitoring folder
 cd monitoring || { echo " monitoring directory not found"; exit 1; }
 
 echo " Initializing Terraform..."
